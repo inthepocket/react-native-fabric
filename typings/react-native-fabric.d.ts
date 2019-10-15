@@ -18,6 +18,7 @@ declare module 'react-native-fabric' {
             recordError(error: string | number | Object): void;
 
             logException(value: string): void;
+            logExceptionWithId(id: string, error: string, source: string): void;
             log(message: string): void;
             setUserEmail(email: string): void;
             setUserIdentifier(userIdentifier: string): void;
